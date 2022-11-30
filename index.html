@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script src="script.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Tetris</title>
+    </head>
+    <body>
+        <h3>Score:<span id="score">0</span></h3>
+        <h3>Lines Cleared:<span id="linesCleared">0</span></h3>
+        <h3>Level:<span id="level">0</span></h3>
+        <button id="start-button" class="start-button">Play</button>
+        <button id="pause-button" class="start-button">Pause</button>
+        <div class="container" id="container"></div>
+        <audio src="/audio/background_music.mp3" id="audio" autoplay>
+            <source src="/audio/background_music.mp3" type="audio/mpeg">
+        </audio>
+        <script> populateObjects() </script>
+    </body>
+</html>
